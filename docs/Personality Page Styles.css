@@ -389,7 +389,7 @@
 .inspiration-section {
     position: relative;
     height: 100vh; /* Adjust as needed */
-    background: url('../Assets/IMG_2500.JPG') no-repeat center center;
+    background: url('Assets/IMG_2500.JPG') no-repeat center center;
     background-size: cover;
     background-position: top;
   }
