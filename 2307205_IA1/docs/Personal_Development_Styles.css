@@ -1,0 +1,87 @@
+/* Academic Profile Section */
+.academic-profile-section {
+    padding: 40px 20px;
+    background:linear-gradient(#EEEAFE,#fce4ec); /* Unique gradient background */
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .academic-profile-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .profile-heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    color: #2E4739;
+    margin-bottom: 20px;
+  }
+  
+  .profile-text {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.8;
+  }
+  
+
+/* Personal Development Section */
+.personal-development-section {
+    padding: 50px 20px;
+    background-color: #fefbef;
+    text-align: center;
+  }
+  
+  .section-heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    color: #2E4739;
+    margin-bottom: 40px;
+  }
+
+  .section-divider {
+    border: none;
+    border-top: 2px solid #2E4739;  /* Dark green color to match the theme */
+    margin: 20px auto; 
+    margin-bottom: 0;          
+    width: 80%;                 
+  }
+  
+  /* Grid Container: Two columns for chapters, summary spans both columns */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Grid Cards */
+  .grid-card {
+    background-color: #f8efe6;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: left;
+    color: #333;
+    line-height: 1.8;
+  }
+  
+  .grid-card h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    color: #2E4739;
+    margin-bottom: 15px;
+  }
+  
+  .grid-card p {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  /* Summary Card spans two columns */
+  .summary-card {
+    grid-column: 1 / -1;
+  }
+
+  

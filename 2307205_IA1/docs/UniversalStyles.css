@@ -1,0 +1,113 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Syne', sans-serif;
+    background-color: #fefbef;
+    color: #333333;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+
+.section-divider {
+    border: none;
+    border-top: 2px solid #2E4739; 
+    margin: 20px auto; 
+    margin-bottom: 0;            
+    width: 80%;                    
+  }
+
+/* Header and Navigation */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px solid #2E4739;
+}
+
+.nav {
+    flex: 1;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #333333;
+    font-size: 18px;
+    transition: color 0.3s ease, background-clip 0.3s ease;
+}
+
+.nav-link:hover {
+    color: transparent;
+    background: linear-gradient(45deg, #FF6F91, #BDC3C7);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Profile Header & Cursive Text */
+.profile-header {
+    display: flex;         /* Arrange the profile image and text side by side */
+    align-items: center;
+    gap: 10px;             /* Adds space between the profile image and the text */
+}
+
+.profile-header .profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    animation: borderAnimation 3s infinite;
+}
+
+.cursive-text {
+    font-family: 'Great Vibes', cursive; /* Unique cursive font */
+    font-weight: 400;
+    font-size: 30px;
+    color: #2E4739;
+    margin-left: 10px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    color: #2E4739;
+    font-family: 'Playfair Display', sans-serif;
+    background: #FEFBEF;
+}
+
+.footer p {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.footer p em {
+    font-family: 'Great Day', cursive;
+    font-style: italic;
+    font-size: 35px;  /* Slightly larger for emphasis */
+}
+
+/* Footer*/
+.footer a {
+    color: #E05A7A;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #E91E63;
+}

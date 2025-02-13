@@ -1,0 +1,437 @@
+/* Full-Screen Hero Section */
+.hero-section {
+    margin-top: 0;
+    position: relative;
+    height: 100vh;
+    background: url('../Assets/Panda.avif') no-repeat center center;
+    background-size: cover;
+  }
+  
+  /* Semi-transparent Black Overlay */
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* 50% opacity black */
+  }
+  
+  /* Content Positioned in the Center */
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: #F4F4F4;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0 20px;
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', sans-serif;
+  }
+
+  /* Hero Button Styling */
+  .hero-btn {
+    background-color: #FC7E52;
+    margin-top: 2.03rem;
+    position: relative;
+    display: inline-block;
+    color: #081C2B;
+    border-radius: 10rem;
+    padding: 15px 30px;
+    font-size: 0.94rem;
+    text-transform: uppercase;
+    letter-spacing: 0.045vw;
+    font-weight: 900;
+    line-height: 1.5;
+    font-family: 'Helvetica Neue LT Std', Helvetica, Arial, sans-serif;
+    border: 2px solid #151616;
+    box-shadow: 0px 4px 0px #151616;
+    text-decoration: none;
+  }
+  
+  .hero-btn:hover {
+    background-color: #fefbef;
+  }
+
+  .hobbies-btn {
+    background-color: #FC7E52;
+    margin-top: 1.5rem; /* Reduced margin */
+    position: relative;
+    display: inline-block;
+    color: #081C2B;
+    border-radius: 10rem;
+    padding: 10px 20px; /* Reduced padding */
+    font-size: 13px;    /* Smaller font size */
+    letter-spacing: 0.04vw; /* Slightly reduced letter spacing */
+    font-weight: 900;
+    line-height: 1.5;
+    font-family: 'Helvetica Neue LT Std', Helvetica, Arial, sans-serif;
+    border: 2px solid #151616;
+    box-shadow: 0px 4px 0px #151616;
+    text-decoration: none;
+}
+
+.hobbies-btn:hover {
+    background-color: #fefbef;
+  }
+  
+/* Explore My World Section */
+.explore-section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.section-heading {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 36px;
+  color: #2E4739; /* Dark green */
+  margin-bottom: 40px; /* Spacing below the heading */
+}
+
+/* Cards Container */
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap; /* Ensures responsiveness on smaller screens */
+  margin-top: 40px;  /* Added spacing between the heading and the cards */
+}
+
+  /* Cards Container */
+  .cards-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap; /* Ensures responsiveness on smaller screens */
+  }
+  
+  /* Card Styles */
+  .card {
+    position: relative;
+    background-color: #fff; /* Fallback color */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: calc(33.33% - 20px); /* Three cards across with gap */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+  }
+  
+  /* For the portrait card, adjust background position to move the image down */
+  .portrait-card {
+    background-position: top;
+  }
+  
+  /* Static Overlay on Card */
+  .card .card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent black overlay */
+    opacity: 1; /* Always visible */
+  }
+  
+  /* Card Content */
+  .card .card-content {
+    position: relative;
+    padding: 20px;
+    z-index: 2;
+    text-align: left;
+    color: #F4F4F4; /* Light text for contrast */
+  }
+  
+  .card .card-content h3 {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 24px;
+    margin: 0 0 10px;
+    color: #F4F4F4;
+  }
+  
+  .card .card-content p {
+    font-size: 16px;
+    margin: 0 0 20px;
+    line-height: 1.5;
+    color: #F4F4F4;
+  }
+  
+  /* Card Button */
+  .card-btn {
+    display: inline-block;
+    background-color: #FC7E52;  /* Elegant pink */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    position: relative;
+    z-index: 3; /* Ensure button appears above overlay */
+  }
+  
+  .card-btn:hover {
+    background-color: #fefbef;
+    color: #FC7E52;
+  }
+
+  /* Hobbies & Interests Section */
+.hobbies-section {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  /* Heading with Illustrations */
+  .hobbies-heading-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .heading-illustration {
+    height:50px;
+    width: 50px; 
+    height: auto;
+  }
+  
+  .section-heading {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 36px;
+    color: #2E4739;
+    margin: 0;
+  }
+
+  .section-divider {
+    border: none;
+    border-top: 2px solid #2E4739;  /* Dark green color to match your theme */
+    margin: 20px auto; 
+    margin-bottom: 0;            /* Reduced vertical spacing */
+    width: 80%;                    /* Adjust the width as needed */
+  }
+  
+  /* Vertical Cards Container */
+  .cards-container-vertical {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  /* Vertical Card Styles */
+  .vertical-card {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .vertical-card:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Left: Information Content */
+  .vertical-card-content {
+    flex: 1 1 300px;
+    padding: 20px;
+    text-align: left;
+    color: #333;
+  }
+  
+  .vertical-card-content h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #2E4739;
+  }
+  
+  .vertical-card-content p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Right: Media Container */
+  .vertical-card-media {
+    flex: 1 1 300px;
+    position: relative;
+    padding: 20px;
+  }
+  
+  .video-container {
+    position: relative;
+    background-color: #000; /* Fallback if video doesn't load */
+    height: 300px; 
+  }
+  
+  .video-container iframe {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  /* Academics Section Container */
+.academics-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fefbef;  /* You can adjust or remove this if you want to blend with adjacent sections */
+  }
+  
+  /* Video Container */
+  .video-container {
+    position: relative;
+    background-color: #000;  /* Fallback color if the video fails to load */
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto 20px auto;  /* Center the video and add bottom spacing */
+    height: 450px;  /* Adjust the height as needed */
+  }
+  
+  .video-container iframe {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  
+  /* Academics Card */
+  .academics-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;  /* Center the card */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: left;
+    
+  }
+  
+  .academics-card h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #2E4739;
+  }
+  
+  .academics-card p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+
+  /* Personality Quiz Section */
+.quiz-section {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .quiz-section .section-heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    color: #2E4739; /* Dark green */
+    margin-bottom: 40px;
+  }
+
+  .quiz-flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    flex-wrap: wrap; /* Stack on smaller screens */
+  }
+  
+  /* Analysis Card */
+  .quiz-card {
+    background-color: #f8efe6;
+    border-radius: 10px;
+    padding: 10px 15px;
+    max-width: 500px;
+    margin: 0 auto 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: left;
+    color: #333;
+  }
+  
+  .quiz-card p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Placeholder for Quiz Results */
+  .quiz-results-placeholder {
+    flex: 1 1 400px;
+    max-width: 400px;
+  }
+  
+  .quiz-results-placeholder img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #2E4739; /* Accent border */
+    border-radius: 5px;
+  }  
+
+/* Inspiration Section */
+.inspiration-section {
+    position: relative;
+    height: 100vh; /* Adjust as needed */
+    background: url('../Assets/IMG_2500.JPG') no-repeat center center;
+    background-size: cover;
+    background-position: top;
+  }
+  
+  /* Semi-transparent overlay */
+  .inspiration-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* 70% opacity for good contrast */
+    z-index: 1;
+  }
+  
+  /* Content Container (text + profile image) */
+  .inspiration-content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;  /* Change to row if you prefer side-by-side on larger screens */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    height: 100%;
+    color: #F4F4F4;
+  }
+  
+  /* Text styles */
+  .inspiration-text h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .inspiration-text p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    line-height: 1.5;
+  }
+  
+
+  

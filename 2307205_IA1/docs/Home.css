@@ -1,0 +1,117 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/* Introduction Section */
+.intro-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 20px;
+    position: relative;
+}
+
+.intro-text {
+    flex: 1 1 400px;
+    padding: 20px;
+    text-align: left;
+}
+
+.greeting {
+    font-family: 'Dancing Script', cursive;
+    font-size: 48px;
+    color: #FC7E52;
+    margin-bottom: 10px;
+}
+
+.name-header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 56px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.intro-paragraph {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.profile-container {
+    position: relative;
+    flex: 1 1 400px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Profile Image */
+.profile-image {
+    width: 100%;
+    max-width: 300px;  /* Display size for responsive view */
+    height: auto;
+    border: 5px solid #FC7E52;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+/* Decorative Cat Image */
+.decorative-cat {
+    position: absolute;
+    bottom: 10x;
+    left: 30px;          /* Moves the image to the bottom left corner */
+    width: 200px;         
+    height: auto;
+    border: 3px solid #FC7E52; /* Adds a border with the accent color */
+    border-radius: 10px;  
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5); 
+  }
+  
+
+/* Lilac Card Section */
+.lilac-card-section {
+    position: relative;
+    background:linear-gradient(#EEEAFE,#fce4ec); ; /* Lilac background */
+    padding: 50px 20px;
+    margin-top: -50px; /* Allow profile image overlap */
+    z-index: 1;
+}
+
+.lilac-card {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #f8efe6;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.bio-text,
+.achievements,
+.quote {
+font-size: 18px;
+line-height: 1.6;
+margin-bottom: 20px;
+}
+
+.quote {
+font-family: 'Playfair Display', serif;
+font-size: 20px;
+color: #2E4739;
+font-style: italic;
+}
+
+/* Footer */
+.site-footer {
+background-color: #081C2B;
+color: #F4F4F4;
+text-align: center;
+padding: 20px;
+margin-top: 40px;
+}
+  

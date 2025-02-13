@@ -1,0 +1,39 @@
+/* References Section */
+.references-section {
+    padding: 50px 20px;
+    background-color: #fefbef;
+    text-align: center;
+  }
+  
+  .section-heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    color: #2E4739;
+    margin-bottom: 40px;
+  }
+  
+  .references-list {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333;
+    list-style: decimal;
+    padding-left: 20px;
+  }
+  
+  .references-list li {
+    margin-bottom: 15px;
+  }
+  
+  .references-list a {
+    color: #FC7E52;
+    text-decoration: none;
+  }
+  
+  .references-list a:hover {
+    text-decoration: underline;
+  }
+  
