@@ -3,7 +3,7 @@
     margin-top: 0;
     position: relative;
     height: 100vh;
-    background: url('../Assets/Panda.avif') no-repeat center center;
+    background: url('Assets/Panda.avif') no-repeat center center;
     background-size: cover;
   }
   
